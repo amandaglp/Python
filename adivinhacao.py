@@ -21,14 +21,12 @@ else:
 for i in range(total_de_tentativas):
     print("Tentativa {} de {}".format(rodada, total_de_tentativas))
     chute = int(input("Qual é o seu chute?\n"))
-    while True:
-        if(chute < 0 or chute > 100):
+
+    if(chute < 0 or chute > 100):
             print("Você digitou um número inválido. Tente novamente.")
             print("Tentativa {} de {}".format(rodada, total_de_tentativas))
             chute = int(input("Qual é o seu chute?\n"))
             continue
-        else:
-            break
 
     if (chute == numero_magico):
         print("Você acertou. Jogo finalizado!")
