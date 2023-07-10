@@ -1,5 +1,4 @@
-import forca
-import adivinhacao
+from Jogos import adivinhacao, forca
 
 print('Menu de Jogos')
 print("1 - Adivinhação")
