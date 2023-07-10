@@ -46,9 +46,9 @@ def historico(conta):
     print("-----------------------")
 
 
-# Criar as contas
+
 conta1 = cria_conta('123-4', 'Amanda Lopes', 1000.0, 10000.0)
-#print(conta1['titular'])
+
 conta2 = cria_conta('123-7', 'Olivia Pope', 2000.0, 15000.0)
 
 conta3 = cria_conta('543-5', 'Meredith Grey', 3000.0, 17000.0)
